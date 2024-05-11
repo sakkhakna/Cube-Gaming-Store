@@ -24,7 +24,9 @@ function Navbar() {
         <nav className="bg-[#171A21FF] max-w-7xl mx-auto p-4 my-8 flex justify-between items-center">
         <Menubar className="bg-[#171A21FF] text-white border-none">
             <MenubarMenu>
-                <MenubarTrigger className="gap-2 text-sm hover:text-[#FF4500FF]"><Home /> Home</MenubarTrigger>
+                <Link href="/">
+                    <MenubarTrigger className="gap-2 text-sm hover:text-[#FF4500FF]"><Home /> Home</MenubarTrigger>
+                </Link>
             </MenubarMenu>
             <MenubarMenu>
                 <MenubarTrigger className="gap-2 text-sm hover:text-[#FF4500FF]"><Gamepad2 /> Categories</MenubarTrigger>
@@ -55,7 +57,9 @@ function Navbar() {
                 <MenubarTrigger className="gap-2 text-sm hover:text-[#FF4500FF]"><User /> About</MenubarTrigger>
             </MenubarMenu>
             <MenubarMenu>
+                <Link href="/contact">
                 <MenubarTrigger className="gap-2 text-sm hover:text-[#FF4500FF]"><Mail />Contact</MenubarTrigger>
+                </Link>
             </MenubarMenu>
         </Menubar>
         <Input className="w-1/4" type="text" placeholder="Search" />

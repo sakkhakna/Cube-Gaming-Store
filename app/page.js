@@ -126,30 +126,72 @@ export default function Home() {
           <section>
               {/*<div className="bg-[#171A21FF] max-w-7xl h-[500px] rounded-lg"></div>*/}
               <div className="max-w-7xl grid grid-cols-4 gap-10 text-white mb-10">
-                  <div className="col-span-4 bg-[#171A21FF] max-w-7xl h-[600px] rounded-lg flex justify-between items-center p-[175px]">
+                  <div
+                      className="col-span-4 bg-[#171A21FF] max-w-7xl h-[600px] rounded-lg flex justify-between items-center p-[175px]">
                       <div className="flex flex-col gap-4">
-                            <h1 className="text-2xl font-bold text-[#FF4500FF]">Best</h1>
-                            <h1 className="text-6xl font-bold text-[#FF4500FF]">Gaming</h1>
-                            <h1 className="text-8xl font-bold">Console</h1>
-                            <Button className="bg-[#FF4500FF] text-white">View More</Button>
+                          <h1 className="text-3xl font-bold text-[#FF4500FF]">Best</h1>
+                          <h1 className="text-6xl font-bold text-[#FF4500FF]">Gaming</h1>
+                          <h1 className="text-8xl font-bold">Console</h1>
+                          <Button className="bg-[#FF4500FF] text-white w-28">View More</Button>
                       </div>
-                      <Image src="/next.svg" alt="Image" width={400} height={400}/>
+                      <Image src="/PS5.webp" alt="Image" width={500} height={500}/>
                   </div>
-                  <div className="col-span-2 bg-[#171A21FF] w-full h-[400px] rounded-lg">
-                      <h1 className="text-xl font-bold text-[#FF4500FF]">Best</h1>
-                      <h1 className="text-4xl font-bold text-[#FF4500FF]">Gaming</h1>
-                      <h1 className="text-6xl font-bold">Console</h1>
-                      <Button className="bg-[#FF4500FF] text-white">View More</Button></div>
-                  <div className="col-span-2 bg-[#171A21FF] w-full h-[400px] rounded-lg">
-                      <h1 className="text-xl font-bold text-[#FF4500FF]">Best</h1>
-                      <h1 className="text-4xl font-bold text-[#FF4500FF]">Gaming</h1>
-                      <h1 className="text-6xl font-bold">Console</h1>
-                      <Button className="bg-[#FF4500FF] text-white">View More</Button>
+                  <div
+                      className="col-span-2 bg-[#171A21FF] w-full h-[400px] rounded-lg flex items-center justify-between p-[80px]">
+                      <div className="flex flex-col gap-2">
+                          <h1 className="text-2xl font-bold text-[#FF4500FF]">Best</h1>
+                          <h1 className="text-4xl font-bold text-[#FF4500FF]">Gaming</h1>
+                          <h1 className="text-6xl font-bold">PC</h1>
+                          <Button className="bg-[#FF4500FF] text-white w-28 mt-2">View More</Button>
+                      </div>
+                      <Image src="/PS5.webp" alt="Image" width={300} height={350}/>
                   </div>
-                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg">Hello</div>
-                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg">Hello</div>
-                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg">Hello</div>
-                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg">Hello</div>
+                  <div
+                      className="col-span-2 bg-[#171A21FF] w-full h-[400px] rounded-lg flex items-center justify-between p-[80px]">
+                      <div className="flex flex-col gap-2">
+                          <h1 className="text-2xl font-bold text-[#FF4500FF]">Best</h1>
+                          <h1 className="text-4xl font-bold text-[#FF4500FF]">Gaming</h1>
+                          <h1 className="text-6xl font-bold">Laptop</h1>
+                          <Button className="bg-[#FF4500FF] text-white w-28 mt-2">View More</Button>
+                      </div>
+                      <Image src="/PS5.webp" alt="Image" width={300} height={350}/>
+                  </div>
+                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg flex items-center p-8">
+                      <div>
+                          <h1 className="text-lg font-bold text-[#FF4500FF]">Best</h1>
+                          <h1 className="text-xl font-bold text-[#FF4500FF]">Gaming</h1>
+                          <h1 className="text-2xl font-bold">Mouse</h1>
+                          <Button className="bg-[#FF4500FF] text-white w-24 mt-2">View More</Button>
+                      </div>
+                      <Image src="/PS5.webp" alt="Image" width={150} height={150}/>
+                  </div>
+                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg flex items-center p-8">
+                      <div>
+                          <h1 className="text-lg font-bold text-[#FF4500FF]">Best</h1>
+                          <h1 className="text-xl font-bold text-[#FF4500FF]">Gaming</h1>
+                          <h1 className="text-2xl font-bold">Keyboard</h1>
+                          <Button className="bg-[#FF4500FF] text-white w-24 mt-2">View More</Button>
+                      </div>
+                      <Image src="/PS5.webp" alt="Image" width={150} height={150}/>
+                  </div>
+                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg flex items-center p-8">
+                      <div>
+                          <h1 className="text-lg font-bold text-[#FF4500FF]">Best</h1>
+                          <h1 className="text-xl font-bold text-[#FF4500FF]">Gaming</h1>
+                          <h1 className="text-2xl font-bold">Headset</h1>
+                          <Button className="bg-[#FF4500FF] text-white w-24 mt-2">View More</Button>
+                      </div>
+                      <Image src="/PS5.webp" alt="Image" width={150} height={150}/>
+                  </div>
+                  <div className="bg-[#171A21FF] w-full h-[250px] rounded-lg flex items-center p-8">
+                      <div>
+                          <h1 className="text-lg font-bold text-[#FF4500FF]">Best</h1>
+                          <h1 className="text-xl font-bold text-[#FF4500FF]">Gaming</h1>
+                          <h1 className="text-2xl font-bold">Controller</h1>
+                          <Button className="bg-[#FF4500FF] text-white w-24 mt-2">View More</Button>
+                      </div>
+                      <Image src="/PS5.webp" alt="Image" width={150} height={150}/>
+                  </div>
               </div>
           </section>
 

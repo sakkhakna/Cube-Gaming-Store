@@ -36,7 +36,7 @@ function TopSellingPage() {
                 </div>
             </div>
             <div className="flex my-8 w-full">
-                <div className="bg-white w-[350px] h-[450px] relative">
+                <div className="bg-white w-1/3 h-[450px] relative">
                     <div className="bg-[#171A21FF] w-[300px] text-white font-bold text-4xl absolute right-0 top-[90px] p-3">Top Selling on PlayStation</div>
                 </div>
                 <div className="grid grid-cols-3 gap-3 py-10 px-4 w-full">
